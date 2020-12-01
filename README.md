@@ -32,3 +32,15 @@ $ bundle install
 $ rake spec
 ```
 ### Unit Tests
+
+``` bash
+$ vagrant ssh app
+$ cd /home/ubuntu/app
+$ pm2 stop app.js
+
+$ cd /home/ubuntu/app
+$ npm test
+```
+
+
+timeline landing page tracker
