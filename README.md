@@ -73,4 +73,5 @@ $ git commit -m "useful descriptive message"
 test merge
 test merge 2
 test merge 3
+test merge 4
 
