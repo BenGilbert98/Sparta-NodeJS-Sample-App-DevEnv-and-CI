@@ -23,3 +23,12 @@ This repo will be a dev env you can copy and set up by running vagrant up.
 1) Navigate to the cloned file directory and run `vagrant up`
 
 ## Running the tests
+
+### Integration Tests
+
+``` bash
+$ cd tests
+$ bundle install
+$ rake spec
+```
+### Unit Tests
