@@ -43,4 +43,31 @@ $ npm test
 ```
 
 
-timeline landing page trackerhello
+timeline landing page tracker
+
+## Branching
+- Changing a branch
+```bash
+$ git checkout -b <branch name>
+```
+- Changing to existing branch
+``` bash
+$ git checkout <branch>
+
+- Commit to branch as normal
+
+- changing to existing branch
+``` bash
+$ git add .
+$ git commit -m "useful descriptive message"
+```
+
+- once commited, push specific branches to origin
+``` bash
+$ git <action> <remote> <branch>
+$ git push
+$ git commit -m "useful descriptive message"
+```
+
+
+test merge
