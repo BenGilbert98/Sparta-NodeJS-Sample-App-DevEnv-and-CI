@@ -70,10 +70,11 @@ $ git commit -m "useful descriptive message"
 ```
 
 
-test merge
-test merge 2
-test merge 3
-test merge 4
-test merge 5
-test merge 6
-test merge 7
+- test merge
+- test merge 2
+- test merge 3
+- test merge 4
+- test merge 5
+- test merge 6
+- test merge 7
+- test filipe
