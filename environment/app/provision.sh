@@ -20,17 +20,16 @@ sudo apt-get install nginx -y
 # Removes the default file from /etc/nginx/sites-available/default
 sudo rm /etc/nginx/sites-available/default
 
-# Copies the port80.default file from our folder to the /etc/nginx/sites-available location
-sudo cp /home/ubuntu/environment/port80.default /etc/nginx/sites-available/default
+# Copies the port80.default file from our folder to the /etc/nginx/sites-availa$
+sudo cp /home/ubuntu/environment/port80.default /etc/nginx/sites-available/defa$
 
 # Restart the nginx service to make sure the changes take effect
 sudo systemctl restart nginx.service
 
 # .bashrc envrionment variable added from db
-echo 'export DB_HOST=192.168.10.200' >> ~/.bashrc
+echo 'export DB_HOST=34.255.3.58' >> ~/.bashrc
 
 # Navigate to /home/ubuntu/app
 cd /home/ubuntu/app
 
-# Start the app with admin rights
-sudo pm2 start app.js --update-env
+sudo DB_HOST=34.255.3.58 pm2 start app.js
