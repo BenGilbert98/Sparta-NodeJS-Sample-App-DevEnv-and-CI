@@ -32,4 +32,4 @@ echo 'export DB_HOST=34.255.3.58' >> ~/.bashrc
 # Navigate to /home/ubuntu/app
 cd /home/ubuntu/app
 
-sudo DB_HOST=34.255.3.58 pm2 start app.js
+sudo DB_HOST=54.77.110.110 pm2 start app.js
