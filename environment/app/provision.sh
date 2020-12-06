@@ -21,7 +21,7 @@ sudo apt-get install nginx -y
 sudo rm /etc/nginx/sites-available/default
 
 # Copies the port80.default file from our folder to the /etc/nginx/sites-availa$
-sudo cp /home/ubuntu/environment/port80.default /etc/nginx/sites-available/defa$
+sudo cp /home/ubuntu/environment/port80.default /etc/nginx/sites-available/default
 
 # Restart the nginx service to make sure the changes take effect
 sudo systemctl restart nginx.service
